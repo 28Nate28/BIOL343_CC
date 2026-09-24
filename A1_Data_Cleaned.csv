@@ -1,4 +1,4 @@
-﻿pop_type,pop_name,lat,long,ovary_width,ovary_height,avg_aug_temp,flower_num
+pop_type,pop_name,lat,long,ovary_width,ovary_height,avg_aug_temp,flower_num
 A,MI M2,43.264,-84.884,3.62,3.48,21.0,
 A,MI M3,45.615,-84.689,3.61,3.59,18.3,
 A,MI M5,42.418,-84.013,2.98,2.68,20.8,
@@ -45,7 +45,3 @@ S,ON T16,44.902,-75.870,3.34,3.11,20.5,45.30
 S,ON T3,43.208,-80.650,3.35,2.83,19.6,
 S,ON T7,42.049,-83.106,3.78,3.18,21.6,
 S,ON T8,42.257,-81.859,3.30,2.88,20.8,
-,,,,,,,
-,,,,,,,
-,,,,,,,
-,,,,,,,

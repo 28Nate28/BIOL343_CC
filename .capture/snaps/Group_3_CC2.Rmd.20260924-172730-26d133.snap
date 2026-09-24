@@ -105,7 +105,7 @@ Make a histogram of `ovary_area` with `ggplot()` + `geom_histogram()` (Chapter 4
 ```{r area-histogram, echo=F}
 library(ggplot2)
 
-ggplot(aes(x=ovary_area, data = cc1_data)) +
+ggplot(aes(xovary_area, data = cc1_data)) +
     geom_histogram(aes(binwidth=5, facet_wrap(population_type))) +
     title("Ovary Area by Population Type") +
     xlab("Population Type") +
