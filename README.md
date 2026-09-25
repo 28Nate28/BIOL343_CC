@@ -1,4 +1,3 @@
 # BIOL343_CC
-My BIOL343 repository for coding challenges
-
-#BIOL 343 Coding Challenge 2
+#BIOL343_CC
+This repositary contains statistical information about the Ovary Sizes of different populations of the plant Solanum pimpinellifolium.
