@@ -4,9 +4,9 @@ author: "Group 3"
 date: "`r format(as.Date('2026-09-25'))`"
 output:
   html_document: 
-  toc: true 
-  number_sections: true 
-  toc_float: 
+    toc: true 
+    number_sections: true 
+    toc_float: 
   collapsed: false 
 ---
 
@@ -46,6 +46,7 @@ knitr::opts_chunk$set()
 
 Write a **Markdown table** (Chapter 5, *Tables*) with three columns — variable, description, units — and one row for each of these variables from the Coding Challenge 1 dataset: `population_type`, `ovary_width`, `ovary_height`, `flower_number`. Use the *pipes and dashes* format from the chapter, not R code.
 
+Data Dictionary 
 -----------------------
 variable  | description  | units
 ------|---------|------

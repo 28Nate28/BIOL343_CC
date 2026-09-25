@@ -45,7 +45,6 @@ knitr::opts_chunk$set()
 # Data dictionary
 
 Write a **Markdown table** (Chapter 5, *Tables*) with three columns — variable, description, units — and one row for each of these variables from the Coding Challenge 1 dataset: `population_type`, `ovary_width`, `ovary_height`, `flower_number`. Use the *pipes and dashes* format from the chapter, not R code.
-
 -----------------------
 variable  | description  | units
 ------|---------|------
