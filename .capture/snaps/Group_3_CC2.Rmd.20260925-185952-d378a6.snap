@@ -3,11 +3,11 @@ title: "BIOL343 Coding Challenge 2"
 author: "Group 3"
 date: "`r format(as.Date('2026-09-25'))`"
 output:
-  html_document: 
-    toc: true 
-    number_sections: true 
-    toc_float: 
-      collapsed: false 
+  html_document:
+    toc: true
+    number_sections: true
+    toc_float:
+      collapsed: false
 ---
 
 # DO THIS FIRST
@@ -78,8 +78,7 @@ tail(cc1_data)
 
 Write the formula you used for ovary area as a **full-line equation** in LaTeX (Chapter 5, *Equations*), using `\times` for multiplication. Then, in a sentence of ordinary text, state its units using an **in-line equation** with a superscript.
 
-$$\text{Ovary Area} = \text{Ovary Width} \times \text{Ovary Height}$$
-Ovary Area is measured in $\text{mm}^2$
+$$\text{Ovary Area} = \text{Ovary Width} \times \text{}
 
 # Dynamic table
 

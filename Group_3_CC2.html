@@ -7,6 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Group 3">
+<meta name="dcterms.date" content="2026-09-25">
 
 <title>BIOL343 Coding Challenge 2</title>
 <style>
@@ -42,6 +43,35 @@ ul.task-list li input[type="checkbox"] {
 <link href="Group_3_CC2_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="Group_3_CC2_files/libs/bootstrap/bootstrap-917079515d91bccb85b543faf8aa8bb6.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 </head>
 
@@ -70,7 +100,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">Invalid Date</p>
+      <p class="date">September 25, 2026</p>
     </div>
   </div>
   
@@ -82,8 +112,8 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="do-this-first" class="level1 unnumbered">
-<h1 class="unnumbered">DO THIS FIRST</h1>
+<section id="do-this-first" class="level1">
+<h1>DO THIS FIRST</h1>
 <p>Copy and paste this into your R Console to start positpal, but replace <code>FILENAME.Rmd</code> with the name you are going to use for the .R or .Rmd file you are going to upload (for this challenge, rename the template first, e.g.&nbsp;<code>Group_#_CC2.Rmd</code>, and use that exact name). <strong>Do not include it as a code chunk.</strong></p>
 <pre><code>install.packages("remotes")
 remotes::install_url("https://quantitative.bio/downloads/positpal.tar.gz", upgrade = "never")
@@ -207,7 +237,7 @@ positpal::start("FILENAME.Rmd")</code></pre>
 <section id="equation" class="level1">
 <h1>Equation</h1>
 <p>Write the formula you used for ovary area as a <strong>full-line equation</strong> in LaTeX (Chapter 5, <em>Equations</em>), using <code>\times</code> for multiplication. Then, in a sentence of ordinary text, state its units using an <strong>in-line equation</strong> with a superscript.</p>
-<p>Ovary Area = Ovary Width Ovary Height</p>
+<p><span class="math display">\[\text{Ovary Area} = \text{Ovary Width} \times \text{Ovary Height}\]</span> Ovary Area is measured in <span class="math inline">\(\text{mm}^2\)</span></p>
 </section>
 <section id="dynamic-table" class="level1">
 <h1>Dynamic table</h1>
@@ -262,7 +292,7 @@ positpal::start("FILENAME.Rmd")</code></pre>
 <figcaption><em>Solanum pimpinellifolium</em></figcaption>
 </figure>
 </div>
-<p>Source:<a href="https://www.google.com/imgres?q=solanum%20pimpinellifolium&amp;imgurl=https%3A%2F%2Fwww.magicgardenseeds.com%2Fmedia%2Fimage%2Fproduct%2F1527%2Flg%2Fwildtomate-rote-murmel-solanum-pimpinellifolium-bio-saatgut.jpg&amp;imgrefurl=https%3A%2F%2Fwww.magicgardenseeds.com%2FWild-Tomato-Rote-Murmel-Solanum-pimpinellifolium-Organic-seeds%3Fsrsltid%3DAU7gw4UfCTWW8xeRG0o5RyYBXkXlODLl6pSFvo3y39kpr0QHX0RALg0g&amp;docid=N4V7kO_Jtp0UQM&amp;tbnid=2shC-zTXTQ3g6M&amp;vet=12ahUKEwi_w4OA44eXAxW_qSsGHVgdHekQnPAOegUInwEQAA..i&amp;w=1200&amp;h=1200&amp;hcb=2&amp;ved=2ahUKEwi_w4OA44eXAxW_qSsGHVgdHekQnPAOegUInwEQAA">Google Image</a></p>
+<p>Source: <a href="https://www.google.com/imgres?q=solanum%20pimpinellifolium&amp;imgurl=https%3A%2F%2Fwww.magicgardenseeds.com%2Fmedia%2Fimage%2Fproduct%2F1527%2Flg%2Fwildtomate-rote-murmel-solanum-pimpinellifolium-bio-saatgut.jpg&amp;imgrefurl=https%3A%2F%2Fwww.magicgardenseeds.com%2FWild-Tomato-Rote-Murmel-Solanum-pimpinellifolium-Organic-seeds%3Fsrsltid%3DAU7gw4UfCTWW8xeRG0o5RyYBXkXlODLl6pSFvo3y39kpr0QHX0RALg0g&amp;docid=N4V7kO_Jtp0UQM&amp;tbnid=2shC-zTXTQ3g6M&amp;vet=12ahUKEwi_w4OA44eXAxW_qSsGHVgdHekQnPAOegUInwEQAA..i&amp;w=1200&amp;h=1200&amp;hcb=2&amp;ved=2ahUKEwi_w4OA44eXAxW_qSsGHVgdHekQnPAOegUInwEQAA">Google Image</a></p>
 </section>
 <section id="repository" class="level1">
 <h1>Repository</h1>

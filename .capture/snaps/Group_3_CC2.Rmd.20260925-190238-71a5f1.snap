@@ -3,8 +3,8 @@ title: "BIOL343 Coding Challenge 2"
 author: "Group 3"
 date: "`r format(as.Date('2026-09-25'))`"
 output:
-  html_document: 
-    toc: true 
+  html_document: # Add options for html output
+    toc: true # Add table of contents (TOC)
     number_sections: true 
     toc_float: 
       collapsed: false 

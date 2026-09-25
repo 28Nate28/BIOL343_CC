@@ -7,10 +7,10 @@ output:
     toc: true 
     number_sections: true 
     toc_float: 
-      collapsed: false 
+      collapsed: false
 ---
 
-# DO THIS FIRST
+#DO THIS FIRST
 
 Copy and paste this into your R Console to start positpal, but replace `FILENAME.Rmd` with the name you are going to use for the .R or .Rmd file you are going to upload (for this challenge, rename the template first, e.g. `Group_#_CC2.Rmd`, and use that exact name). **Do not include it as a code chunk.**
 
@@ -78,8 +78,7 @@ tail(cc1_data)
 
 Write the formula you used for ovary area as a **full-line equation** in LaTeX (Chapter 5, *Equations*), using `\times` for multiplication. Then, in a sentence of ordinary text, state its units using an **in-line equation** with a superscript.
 
-$$\text{Ovary Area} = \text{Ovary Width} \times \text{Ovary Height}$$
-Ovary Area is measured in $\text{mm}^2$
+Ovary Area = Ovary Width \times Ovary Height
 
 # Dynamic table
 
@@ -122,7 +121,7 @@ Embed an image of the study species, *Solanum pimpinellifolium*, with Markdown i
 
 ![_Solanum pimpinellifolium_](./images/s_pimp.jpeg)
 
-Source: [Google Image](https://www.google.com/imgres?q=solanum%20pimpinellifolium&imgurl=https%3A%2F%2Fwww.magicgardenseeds.com%2Fmedia%2Fimage%2Fproduct%2F1527%2Flg%2Fwildtomate-rote-murmel-solanum-pimpinellifolium-bio-saatgut.jpg&imgrefurl=https%3A%2F%2Fwww.magicgardenseeds.com%2FWild-Tomato-Rote-Murmel-Solanum-pimpinellifolium-Organic-seeds%3Fsrsltid%3DAU7gw4UfCTWW8xeRG0o5RyYBXkXlODLl6pSFvo3y39kpr0QHX0RALg0g&docid=N4V7kO_Jtp0UQM&tbnid=2shC-zTXTQ3g6M&vet=12ahUKEwi_w4OA44eXAxW_qSsGHVgdHekQnPAOegUInwEQAA..i&w=1200&h=1200&hcb=2&ved=2ahUKEwi_w4OA44eXAxW_qSsGHVgdHekQnPAOegUInwEQAA)
+Source:[Google Image](https://www.google.com/imgres?q=solanum%20pimpinellifolium&imgurl=https%3A%2F%2Fwww.magicgardenseeds.com%2Fmedia%2Fimage%2Fproduct%2F1527%2Flg%2Fwildtomate-rote-murmel-solanum-pimpinellifolium-bio-saatgut.jpg&imgrefurl=https%3A%2F%2Fwww.magicgardenseeds.com%2FWild-Tomato-Rote-Murmel-Solanum-pimpinellifolium-Organic-seeds%3Fsrsltid%3DAU7gw4UfCTWW8xeRG0o5RyYBXkXlODLl6pSFvo3y39kpr0QHX0RALg0g&docid=N4V7kO_Jtp0UQM&tbnid=2shC-zTXTQ3g6M&vet=12ahUKEwi_w4OA44eXAxW_qSsGHVgdHekQnPAOegUInwEQAA..i&w=1200&h=1200&hcb=2&ved=2ahUKEwi_w4OA44eXAxW_qSsGHVgdHekQnPAOegUInwEQAA)
 
 # Repository
 
