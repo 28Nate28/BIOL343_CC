@@ -4,10 +4,10 @@ author: "Group 3"
 date: "`r format(as.Date('2026-09-25'))`"
 output:
   html_document: 
-    toc: true 
-    number_sections: true 
-    toc_float: 
-      collapsed: false 
+  toc: true 
+  number_sections: true 
+  toc_float: 
+  collapsed: false 
 ---
 
 # DO THIS FIRST
